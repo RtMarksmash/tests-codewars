@@ -7,9 +7,9 @@ function clientCategory(data) {
         let handicap = data[i][1];
 
         if (edad >= 55 && handicap > 7) {
-            clasificacion.push(['senior'])
+            clasificacion.push(['Senior'])
         } else {
-            clasificacion.push(['open'])
+            clasificacion.push(['Open'])
         }
     }
 

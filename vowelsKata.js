@@ -1,7 +1,7 @@
 /* function vowels(str) {
     str = str.toLowerCase();
 
-    let vowel = /[aeiou]/;
+    let vowel = /[aeiou]/
 
     let count = str.split(vowel).length - 1;
 
