@@ -12,9 +12,9 @@
 
 //onsole.log(vowels('mire si funciono de esa manera'));
 
-
 function newVowel(str) {
     const vowel = str.match(/[aeiou]/g);
+
 
     return vowel ? vowel.length : 0;
 
